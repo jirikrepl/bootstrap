@@ -17,6 +17,8 @@ Package.on_use(function(api, where) {
     'useraccounts:core',
   ], ['client', 'server']);
 
+  api.use('kadira:dochead@1.5.0', 'client', {weak: true});
+
   // Requires all routing packages loads before this asking for weak dependencies.
   api.use('useraccounts:flow-routing@1.14.2', ['client', 'server'], {weak: true});
   api.use('useraccounts:iron-routing@1.14.2', ['client', 'server'], {weak: true});
