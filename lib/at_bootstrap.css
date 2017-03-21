@@ -6,11 +6,20 @@
   margin-bottom: 20px;
   border-radius: 10px;
   padding: 15px;
+  max-width: 480px;
 }
 .at-form p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
 }
+
+.at-title h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .at-title h3 {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -110,7 +119,8 @@ button.at-social-btn#at-github:hover {
   text-align: center;
   position: relative;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 .at-sep:before,
 .at-sep:after {
@@ -131,7 +141,7 @@ button.at-social-btn#at-github:hover {
   cursor: progress;
 }
 .at-pwd-form > form {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .at-pwd-form > form label {
   margin-bottom: 5px;
@@ -139,8 +149,6 @@ button.at-social-btn#at-github:hover {
   font-size: 14px;
 }
 #at-btn {
-  font-size: 16px;
-  padding: 10px 12px;
   margin-top: 30px;
 }
 .at-signup-link {
@@ -152,4 +160,10 @@ button.at-social-btn#at-github:hover {
   text-align: center;
   margin-top: 20px;
   font-size: 16px;
+}
+
+.at-pwd-link {
+  padding-top: 20px;
+  margin-bottom: -15px;
+  text-align: center;
 }

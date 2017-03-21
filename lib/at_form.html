@@ -4,12 +4,6 @@
       {{#if showTitle}}
         {{> atTitle}}
       {{/if}}
-      {{#if showOauthServices}}
-        {{> atOauth}}
-      {{/if}}
-      {{#if showServicesSeparator}}
-        {{> atSep}}
-      {{/if}}
       {{#if showError}}
         {{> atError}}
       {{/if}}
@@ -18,6 +12,12 @@
       {{/if}}
       {{#if showMessage}}
         {{> atMessage}}
+      {{/if}}
+      {{#if showOauthServices}}
+        {{> atOauth}}
+      {{/if}}
+      {{#if showServicesSeparator}}
+        {{> atSep}}
       {{/if}}
       {{#if showPwdForm}}
         {{> atPwdForm}}
