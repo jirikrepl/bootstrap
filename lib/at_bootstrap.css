@@ -9,7 +9,7 @@
   max-width: 480px;
 }
 .at-form p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -166,4 +166,9 @@ button.at-social-btn#at-github:hover {
   padding-top: 20px;
   margin-bottom: -15px;
   text-align: center;
+}
+
+.at-link {
+  font-weight: 600;
+  color: #5cb85c;
 }
