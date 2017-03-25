@@ -119,7 +119,7 @@ button.at-social-btn#at-github:hover {
   text-align: center;
   position: relative;
   overflow: hidden;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 .at-sep:before,
@@ -149,7 +149,8 @@ button.at-social-btn#at-github:hover {
   font-size: 14px;
 }
 #at-btn {
-  margin-top: 30px;
+  margin-top: 15px;
+  font-size: 18px;
 }
 .at-signup-link {
   margin-top: 20px;
@@ -170,5 +171,9 @@ button.at-social-btn#at-github:hover {
 
 .at-link {
   font-weight: 600;
+  color: #5cb85c;
+}
+
+.at-link:hover {
   color: #5cb85c;
 }
