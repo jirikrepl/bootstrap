@@ -11,7 +11,6 @@ Package.on_use(function(api, where) {
   api.use([
     'templating',
     'underscore',
-    'ecmascript',
   ], 'client');
 
   api.use([
