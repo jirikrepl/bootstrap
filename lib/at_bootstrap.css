@@ -177,3 +177,15 @@ button.at-social-btn#at-github:hover {
 .at-link:hover {
   color: #5cb85c;
 }
+
+.g-recaptcha-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fbfbfb;
+}
+
+.g-recaptcha {
+  margin-left: 72px;
+}
