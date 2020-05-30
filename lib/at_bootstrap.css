@@ -27,9 +27,7 @@
   font-weight: 800;
   text-align: center;
 }
-.at-link.disabled {
-  color: #444;
-}
+
 .at-signin-link {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -42,79 +40,12 @@
 .at-oauth {
   margin-top: 10px;
 }
-button.at-social-btn {
-  display: block;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 10px;
-  padding: 8px 10px;
-  border-radius: 5px;
-  font-size: 16px;
-}
-button.at-social-btn i {
-  float: left;
-  width: 40px;
+
+button.btn-nedatluj-facebook i {
   font-size: 20px;
-  margin-top: 1px;
-  padding-right: 15px;
-  padding-left: 5px;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 10px;
 }
-button.at-social-btn#at-facebook {
-  background: #3B5998;
-  color: #fff;
-}
-button.at-social-btn#at-facebook.disabled {
-  color: #ddd;
-  background: #666666;
-}
-button.at-social-btn#at-facebook:hover {
-  background: #2C4780;
-}
-button.at-social-btn#at-linkedin {
-  background: #338AB0;
-  color: #fff;
-}
-button.at-social-btn#at-linkedin.disabled {
-  color: #ddd;
-  background: #666666;
-}
-button.at-social-btn#at-linkedin:hover {
-  background: #0571A6;
-}
-button.at-social-btn#at-twitter {
-  background: #4099FF;
-  color: #fff;
-}
-button.at-social-btn#at-twitter.disabled {
-  color: #ddd;
-  background: #666666;
-}
-button.at-social-btn#at-twitter:hover {
-  background: #3288EB;
-}
-button.at-social-btn#at-google {
-  background: #db5a3c;
-  color: #fff;
-}
-button.at-social-btn#at-google.disabled {
-  color: #ddd;
-  background: #666666;
-}
-button.at-social-btn#at-google:hover {
-  background: #CA4C2E;
-}
-button.at-social-btn#at-github {
-  background: #666;
-  color: #fff;
-}
-button.at-social-btn#at-github.disabled {
-  color: #ddd;
-  background: #666666;
-}
-button.at-social-btn#at-github:hover {
-  background: #555;
-}
+
 .at-sep {
   text-align: center;
   position: relative;
@@ -148,10 +79,7 @@ button.at-social-btn#at-github:hover {
   font-weight: 500;
   font-size: 14px;
 }
-#at-btn {
-  margin-top: 15px;
-  font-size: 18px;
-}
+
 .at-signup-link {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -167,15 +95,6 @@ button.at-social-btn#at-github:hover {
   padding-top: 20px;
   margin-bottom: -15px;
   text-align: center;
-}
-
-.at-link {
-  font-weight: 600;
-  color: #5cb85c;
-}
-
-.at-link:hover {
-  color: #5cb85c;
 }
 
 .g-recaptcha-wrapper {
