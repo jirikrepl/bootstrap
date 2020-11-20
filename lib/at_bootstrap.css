@@ -8,7 +8,6 @@
   max-width: 540px;
 }
 .at-form p {
-  font-size: 14px;
   line-height: 20px;
   color: grey;
 }
@@ -31,7 +30,6 @@
 .at-signin-link {
   margin-top: 20px;
   text-align: center;
-  font-size: 14px;
 }
 .at-error,
 .at-result {
@@ -91,7 +89,7 @@ button.btn-nedatluj-facebook i {
 .at-terms-link {
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .at-pwd-link {
@@ -112,10 +110,6 @@ button.btn-nedatluj-facebook i {
   margin-left: 72px;
 }
 
-.form-row {
-
-}
-
 .col-md-offset-4_5 {
   margin-left: 29.175%;
 
@@ -127,9 +121,4 @@ button.btn-nedatluj-facebook i {
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
-}
-
-.form-text {
-  font-size: 14px;
-  color: gray;
 }
