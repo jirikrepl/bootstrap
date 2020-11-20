@@ -9,7 +9,6 @@
 }
 .at-form p {
   line-height: 20px;
-  color: grey;
 }
 
 .at-title h1 {
@@ -83,7 +82,7 @@ button.btn-nedatluj-facebook i {
 }
 
 .at-signup-link {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 .at-terms-link {
@@ -93,9 +92,7 @@ button.btn-nedatluj-facebook i {
 }
 
 .at-pwd-link {
-  padding-top: 30px;
-  margin-bottom: -15px;
-  text-align: center;
+  font-size: 14px;
 }
 
 .g-recaptcha-wrapper {
