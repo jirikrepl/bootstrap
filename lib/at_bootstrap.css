@@ -8,9 +8,7 @@
   max-width: 540px;
 }
 .at-form p {
-  font-size: 14px;
   line-height: 20px;
-  color: grey;
 }
 
 .at-title h1 {
@@ -31,7 +29,6 @@
 .at-signin-link {
   margin-top: 20px;
   text-align: center;
-  font-size: 14px;
 }
 .at-error,
 .at-result {
@@ -85,19 +82,17 @@ button.btn-nedatluj-facebook i {
 }
 
 .at-signup-link {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 .at-terms-link {
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .at-pwd-link {
-  padding-top: 30px;
-  margin-bottom: -15px;
-  text-align: center;
+  font-size: 14px;
 }
 
 .g-recaptcha-wrapper {
@@ -112,10 +107,6 @@ button.btn-nedatluj-facebook i {
   margin-left: 72px;
 }
 
-.form-row {
-
-}
-
 .col-md-offset-4_5 {
   margin-left: 29.175%;
 
@@ -127,9 +118,4 @@ button.btn-nedatluj-facebook i {
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
-}
-
-.form-text {
-  font-size: 14px;
-  color: gray;
 }
