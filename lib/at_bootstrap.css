@@ -1,11 +1,10 @@
 .at-form {
   float: none;
   overflow: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto 20px auto;
   border-radius: 10px;
   padding: 15px 45px 15px 45px;
-  max-width: 540px;
+  max-width: 480px;
 }
 .at-form p {
   line-height: 20px;
@@ -14,7 +13,6 @@
 .at-title h1 {
   margin-top: 0;
   margin-bottom: 28px;
-  font-weight: 500;
   text-align: center;
 }
 
@@ -85,10 +83,11 @@ button.btn-nedatluj-facebook i {
   margin-top: 30px;
   text-align: center;
 }
+
 .at-terms-link {
   text-align: center;
   margin-top: 30px;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .at-pwd-link {
@@ -101,21 +100,15 @@ button.btn-nedatluj-facebook i {
   padding-top: 10px;
   padding-bottom: 10px;
   background: #fbfbfb;
-}
-
-.g-recaptcha {
-  margin-left: 72px;
-}
-
-.col-md-offset-4_5 {
-  margin-left: 29.175%;
-
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .form-component {
-  margin-top: 50px;
   padding: 15px 30px 15px 30px;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 50px 20px 0 20px;
 }
