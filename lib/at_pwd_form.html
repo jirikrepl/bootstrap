@@ -5,15 +5,15 @@
         {{#each fields}}
           {{> atInput}}
         {{/each}}
+        {{#if showForgotPasswordLink}}
+          {{> atPwdLink}}
+        {{/if}}
         {{#if showReCaptcha}}
           {{> atReCaptcha}}
         {{/if}}
+        {{> atPwdFormBtn}}
         {{#if showTermsLink}}
           {{> atTermsLink}}
-        {{/if}}
-        {{> atPwdFormBtn}}
-        {{#if showForgotPasswordLink}}
-          {{> atPwdLink}}
         {{/if}}
       </fieldset>
     </form>
