@@ -1,5 +1,5 @@
 <template name="atError">
-  <div class="at-error alert alert-danger">
+  <div class="at-error alert alert-danger {{#if verifyEmailAlertNoMargin}}alert-no-margin{{/if}}">
     {{#each error}}
       <p>{{errorText}}</p>
     {{/each}}
